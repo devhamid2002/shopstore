@@ -37,7 +37,7 @@ function Navbar() {
             setMenu("womens");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/momens">
+          <Link style={{ textDecoration: "none" }} to="/womens">
             Woman
           </Link>{" "}
           {menu === "womens" ? <hr /> : <></>}
